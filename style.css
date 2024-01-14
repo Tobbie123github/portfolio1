@@ -258,12 +258,23 @@ gap:2rem;
 
 .marquee{
   width:100%;
-  margin-top: 4rem;
-  white-space: nowrap;
   overflow: hidden;
-  background:red;
-  position: relative;
+
+}
+
+.marquee-container{
+  display:inline-block;
+  white-space: nowrap;
+  animation: scroll 14s linear infinite;
  
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
 }
 .icon{
   display:inline-block;
