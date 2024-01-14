@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+<!-- GOOGLE FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<!------- SWIPER JS CDN -------->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-------FONTAWESOME CDN----------->
+<!-- HTML -->
+<link rel="stylesheet" href="https://kit.fontawesome.com/835efb29a1.css" crossorigin="anonymous">
+<!-- Custom Styles -->
+<script src="https://kit.fontawesome.com/835efb29a1.js" crossorigin="anonymous"></script>
+  <!-- Custom Styles -->
+ <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+  
+  
+<nav>
+  <div class="container">
+    <div class="left_side" style="display:flex;align-items: center;justify-content: center; gap:1rem;">
+     <h4>MARSHALL</h4>
+     <span class="night-mode" onclick="toggleMode()">
+        <i class="fas fa-lightbulb" id="on"></i>
+        
+    </span>
+    </div>
+    
+    <ul>
+     <li><a href="#hero" class="active">HOME</a></li>
+     <li><a href="#services" >SERVICES</a></li>
+     <li><a href="#portfolio" >PORTFOLIO</a></li>
+     <li><a href="mailto:tobbie2611@gmail.com">CONTACT</a></li>
+     <span id="download"><a  href="./assets/Word.pdf" download><span><i class="fa-solid fa-download"></i></span>DOWNLOAD CV</a></span>
+    </ul>
+  
+    
+
+  </div>
+  
+  
+</nav>
+
+    <div class="menu_sm" >
+       <div class="menu_container">
+      <span><a href="#hero" class=""><i class="fa-solid fa-house active"></i></a></span>
+      <span><a href="#services"><i class="fa-solid fa-headset"></i></a></span>
+       <span><a href="#portfolio"><i class="fa-solid fa-briefcase"></i></a></span>
+      <span><a href="mailto:tobbie2611@gmail.com"><i class="fa-solid fa-envelope"></i></a></span>
+        </div>
+    </div>
+
+  
+ <!--      HERO.   ---->
+  
+  <section class="hero"  id="hero">
+    <div class="container">
+      <h2>
+      Hello, I'm Jonathan, Welcome to my world of web development
+      </h2>
+      <p>I'm on a mission to utilize the power of Laravel and frontend development to solve real-world challenges through innovative digital solutions.</p>
+     
+      <div class="row">
+      <div class="btn" id="book_project">
+        <p>Book a project</p>
+      </div>
+      <div class="btn">
+        <p>Projects</p>
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!------- Facts. ---------->
+
+<section class="facts">
+  <div class="container">
+    <h2>Facts</h2>
+    
+    <p>With expertise in Laravel, I specialize in constructing robust backend architectures that form the backbone of applications, addressing complex functionalities to ensure seamless operations. On the frontend, I wield HTML, CSS, and JavaScript,React to weave intuitive interfaces that engage users and tackle usability issues head-on.</p>
+    
+    <div class="grid"  >
+      <div>
+        <h2>03+</h2>
+        <p>Experience</p>
+      </div>
+      <div>
+    <h2>13+</h2>
+        <p>Client Reviews</p>
+      </div>
+      <div>
+        <h2>15</h2>
+        <p>Completed Projects</p>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  
+  
+  <!------- SERVICE ----------->
+<section class="service"  id="services">
+  <div class="container">
+    <h2>
+      Services
+    </h2>
+    <div class="card">
+      <div class="skill">
+        <h3><span>
+          <img src="/assets/laravel-2.svg">
+        </span>Laravel Framework</h3>
+        <p>Proficient in creating RESTful APIs, authentication, and MVC architecture.</p>
+      </div>
+      
+       <div class="skill">
+        <h3><span>
+          <img src="/assets/html-1.svg">
+        </span>Frontend Development</h3>
+        <p>Skilled in HTML5, CSS3, JavaScript, React for building engaging user interfaces.</p>
+      </div>
+      
+         <div class="skill">
+        <h3><span>
+          <img src="/assets/amazon-database.svg">
+        </span>Database Management</h3>
+        <p>Expertise in database management systems, especially those commonly used with Laravel like MySQL, PostgreSQL and SQLite</p>
+      </div>
+    </div>
+  </div>
+</section>
+  
+  <!----- MARQUUEEE --------->
+  <marquee behavior="scroll" direction="left" scrollamount="10">
+    <div class="icon"><img src="/assets/laravel-2.svg"></div>
+    <div class="icon"><img src="/assets/css-3.svg"></div>
+    <div class="icon"><img src="/assets/git.svg"></div>
+    <div class="icon"><img src="/assets/html-1.svg"></div>
+       <div class="icon"><img src="/assets/jquery-1.svg"></div>
+       <div class="icon"><img src="/assets/logo-javascript.svg"></div>
+       <div class="icon"><img src="/assets/mysql-2.svg"></div>
+       <div class="icon"><img src="/assets/next-js.svg"></div>
+   <div class="icon"><img src="/assets/php-1.svg"></div>
+    <div class="icon"><img src="/assets/react-2.svg"></div>
+    <div class="icon"><img src="/assets/tailwind-css-2.svg"></div>
+    <!-- Add more icons here -->
+  </marquee>
+  
+  
+
+<!-------- PORTFOLIO --------->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div>
+         <h2>Portfolio </h2>
+      <p>Take a look at some of my completed projects</p>
+      </div>
+      
+
+      <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div>
+                <img src="/assets/Screenshot_20240114-020029.png" alt="img">
+              </div>
+              
+              <div class="contents">
+             <h4>Job Website with Laravel PHP 8.1, TailwindCss, Js</h4>
+              <div class="links">
+                <span><a href="https://acaulescent-canyons.000webhostapp.com/" target="_blank">
+       <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                   </a></span>
+              <span><a href="https://github.com/Tobbie123github/JobWebsite" target="_blank">
+                 <i class="fa-brands fa-github"></i>
+                                  </a>
+                </span>
+              </div>
+              </div>
+            </div>
+            
+            
+            <div class="swiper-slide">
+                            <div>
+                              <img src="/assets/Screenshot_20240114-015508.png" alt="img">
+                            </div>
+              
+                            <div class="contents">
+                              <h4>Blog Website with HTML, CSS5, JS, PHP</h4>
+                              <div class="links">
+                                <span><a href="https://miniblogproject.000webhostapp.com/" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                  </a></span>
+                                <span><a href="https://github.com/Tobbie123github/Blog-website" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                  </a>
+                                </span>
+                              </div>
+                            </div>
+            </div>
+            
+
+            <div class="swiper-slide">
+              <div>
+                <img src="/assets/e605c91b-56d5-4f8d-b6c4-de2980167129.png" alt="img">
+              </div>
+
+              <div class="contents">
+                <h4>Educational Website with HTML, CSS ,JS</h4>
+                <div class="links">
+                  <span><a href="https://edu-kohl.vercel.app/" target="_blank">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a></span>
+                  <span><a href="https://github.com/Tobbie123github/Edu" target="_blank">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+                            <div>
+                              <img src="/assets/26832fdb-33bd-4ec2-9b32-6d0788222c1b.png" alt="img">
+                            </div>
+              
+                            <div class="contents">
+                              <h4>Cloned Blockchain Website</h4>
+                              <div class="links">
+                                <span><a href="https://blockchain-clone-ecru.vercel.app/" target="_blank">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                  </a></span>
+                                <span><a href="https://github.com/Tobbie123github/blockchain" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                  </a>
+                                </span>
+                              </div>
+                            </div>
+            </div>
+            
+                        <div class="swiper-slide">
+                          <div>
+                            <img src="./assets/5ca7c5fd-3e4a-4607-a70c-00d9f1faeb1b.png" alt="img">
+                          </div>
+            
+                          <div class="contents">
+                            <h4>Weather App with ReactJs, OpenWeatherAPI</h4>
+                            <div class="links">
+                              <span><a href="https://weather-app-two-zeta-20.vercel.app/" target="_blank">
+                                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a></span>
+                              <span><a href="https://github.com/Tobbie123github/weatherApp" target="_blank">
+                                  <i class="fa-brands fa-github"></i>
+                                </a>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+            
+           
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+        
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+       
+          
+        </div>
+      
+    </div>
+  </section>
+  
+  
+  
+  
+ <!-------- FAQ --------->
+ 
+ <section class="accordion" >
+<div class="accordions-container">
+  
+<h2>FAQ</h2>
+
+   <div class="accordion-container">
+     
+     <div class="content-container">
+       <div class="top-section">
+         <h5>Will i get a responsive website?</h5>
+       </div>
+       <div class="content">
+         <p>
+           Yes! It will be responsive across all devices and browsers
+         </p>
+       </div>
+     </div>
+ 
+     <div class="content-container">
+       <div class="top-section">
+         <h5>How long does it take?</h5>
+       </div>
+ 
+       <div class="content">
+         <p>
+           Most Project takes a week for custom design and interaction(animation) it may take a bit, but we can discuss before the project starts 
+         </p>
+       </div>
+     </div>
+ 
+ 
+     <div class="content-container">
+       <div class="top-section">
+         <h5>Do you take work abroad?</h5>
+       </div>
+ 
+       <div class="content">
+         <p>
+           Yes, i work with clients in US, England, Germany, Netherlands, France, Italy, New Zealand etc.
+         </p>
+       </div>
+     </div>
+ 
+     <div class="content-container">
+       <div class="top-section">
+         <h5>Are you available 24/7 ?</h5>
+       </div>
+ 
+       <div class="content">
+         <p>
+           Yes, i am.
+         </p>
+       </div>
+     </div>
+ 
+ 
+ 
+ 
+   </div>
+   </div>
+ </section>
+ 
+ 
+ 
+ <!------- FOOTER --------->
+ <footer>
+   <div class="footer-container">
+     <div class="upper-part-footer">
+       <div class="footer-first">
+         <h4>
+           MARSHALL 
+         </h4>
+ 
+         <div class="footer-links">
+           <span><a href="https://www.facebook.com/immaa.ajayi" target="_blank">
+               <i class="fa-brands fa-facebook"></i></a>
+ 
+             <a href="https://www.instagram.com/toby_ay201/"><i class="fa-brands fa-instagram" target="_blank"></a></i>
+             <a href="https://www.linkedin.com/in/abegunde-emmanuel-573687185"> <i class="fa-brands fa-linkedin" target="_blank"></a></i>
+             <a href="https://twitter.com/toby_ay201?s=21&t=zv7pt-bY9v_4OZrnXnshaw"> <i class="fa-brands fa-twitter" target="blank"></a></i>
+             <a href="https://api.whatsapp.com/send?phone=2347081933630"> <i class="fa-brands fa-whatsapp"></a></i>
+ 
+           </span>
+         </div>
+       </div>
+ 
+ 
+       <div class="footer-first">
+     
+         <ul>
+           <li><a href="#hero">Home</a></li>
+           <li><a href="#services">Services</a></li>
+           <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="mailto:tobbie2611@gmail.com">Contact</a></li>
+           
+ 
+         </ul>
+ 
+       </div>
+ 
+ 
+
+ 
+ 
+
+ 
+     </div>
+ 
+     <div class="footer-middle">
+       <p>
+         Marshall Fan • All right reserved
+       </p>
+     </div>
+ 
+   </div>
+ </footer>
+ <script>
+   const swiper = new Swiper('.swiper', {
+     speed:300,
+     autoplay:{
+       delay:3000,
+       disableOnInteraction:false,
+       pauseOnMouseEnter:true,
+     },
+     // Optional parameters
+     direction: 'horizontal',
+     loop: true,
+     slidesPerView:1,
+   spaceBetween:20,
+     // If we need pagination
+     pagination: {
+       el: '.swiper-pagination',
+     },
+   
+     // Navigation arrows
+     navigation: {
+       nextEl: '.swiper-button-next',
+       prevEl: '.swiper-button-prev',
+     },
+   
+     // And if we need scrollbar
+     
+   });
+ </script>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
