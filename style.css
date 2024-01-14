@@ -171,7 +171,8 @@ section.hero{
   border-radius:0.8rem 0 0.8rem 0;
   cursor: pointer;
 }
-.hero .container .row .btn p{
+.hero .container .row .btn p a{
+color:var(--text-color-dark);
 }
 
 #book_project{
