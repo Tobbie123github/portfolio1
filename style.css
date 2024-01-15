@@ -502,7 +502,7 @@ border-top:1px solid var(--text-color-dark);
 
 
 /*.     TABLET VIEW 5A4F4240*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1200px){
   
 h1{
 font-size: 4rem;  
